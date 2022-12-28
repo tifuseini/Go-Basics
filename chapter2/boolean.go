@@ -15,6 +15,7 @@ func main() {
 
 	/* NOT */
 	fmt.Println(!true)
+
 	fmt.Println(!false)
 
 }
