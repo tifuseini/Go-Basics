@@ -9,6 +9,6 @@ func main() {
 	fmt.Scanf("%f", &fahrenheit)
 
 	celsius := (fahrenheit - 32) * 5 / 9
-	fmt.Println(celsius)
+	fmt.Println("From celsuis to fahrenheit", celsius)
 
 }
