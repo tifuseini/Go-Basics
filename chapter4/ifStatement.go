@@ -9,6 +9,7 @@ func main() {
 			fmt.Println(index, "even")
 		} else {
 			fmt.Println(index, "odd")
+
 		}
 
 	}
