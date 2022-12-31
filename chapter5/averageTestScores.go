@@ -17,7 +17,7 @@ func main() {
 
 	}
 
-	average := totalTestScores / 5
+	average := totalTestScores / float64(len(testScores))
 
 	fmt.Println(average)
 
