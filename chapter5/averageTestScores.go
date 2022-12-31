@@ -14,9 +14,13 @@ func main() {
 	testScores := [5]float64{12, 98, 89, 90, 76}
 
 	var totalTestScores float64 = 0
-	for index := 0; index < 5; index++ {
-		totalTestScores += testScores[index]
+	//for index := 0; index < 5; index++ {
+	//	totalTestScores += testScores[index]
+	//
+	//}
 
+	for _, value := range testScores {
+		totalTestScores += value
 	}
 
 	average := totalTestScores / float64(len(testScores))
