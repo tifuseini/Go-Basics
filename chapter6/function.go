@@ -7,6 +7,7 @@ func main() {
 	xs := []float64{90, 89, 34, 34, 45}
 	var averaged = average(xs)
 	fmt.Println(averaged)
+	fmt.Println("Happy New Year")
 
 }
 
