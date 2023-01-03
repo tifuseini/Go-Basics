@@ -13,6 +13,13 @@ func distance(x1, y1, x2, y2 float64) float64 {
 
 }
 
+func rectangleArea(x1, y1, x2, y2 float64) float64 {
+	l := distance(x1, y1, x1, y2)
+	w := distance(x1, y1, x2, y1)
+
+	return l * w
+}
+
 func main() {
 
 }
