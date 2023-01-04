@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"math"
 )
 
@@ -26,5 +27,9 @@ func circleArea(x, y, r float64) float64 {
 }
 
 func main() {
+	var rx1, ry1 float64 = 0, 0
+	var rx2, ry2 float64 = 10, 10
+	var cx, cy, cr float64 = 0, 0, 5
 
+	fmt.Println(rectangleArea(rx1, ry1, rx2, ry2))
 }
