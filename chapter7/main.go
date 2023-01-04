@@ -20,6 +20,11 @@ func rectangleArea(x1, y1, x2, y2 float64) float64 {
 	return l * w
 }
 
+func circleArea(x, y, r float64) float64 {
+	return math.Pi * r * r
+
+}
+
 func main() {
 
 }
