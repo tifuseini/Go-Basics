@@ -1,9 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 type Circle struct {
 	x, y, r float64
+}
+
+func circleArea(c Circle) float64 {
+	return math.Pi * c.r * c.r
+
 }
 
 func main() {
@@ -26,5 +34,7 @@ func main() {
 	fmt.Println(c.x, c.y, c.r)
 	fmt.Println(d.x, d.y, d.r)
 	fmt.Println(e.x, e.y, e.r)
+
+	fmt.Println(circleArea(c))
 
 }
