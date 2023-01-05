@@ -13,4 +13,9 @@ func main() {
 
 	c := Circle{x: 0, y: 0, r: 5}
 
+	d := Circle{0, 0, 5}
+
+	//Pointer to the struct
+	e := &Circle{0, 0, 5}
+
 }
